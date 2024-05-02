@@ -4,21 +4,6 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   darkMode: ['class'],
   theme: {
-    colors: {
-      blue: {
-        100: '#080815',
-        200: '#0E0F25',
-        300: '#141534',
-        400: '#1F2151',
-        500: '#2F3279',
-        600: '#2F34AB',
-        700: '#4A5DCD',
-        800: '#7D8DEC',
-        900: '#B2B8DE'
-      },
-      white: '#F1F2F6',
-      black: '#04040B'
-    },
     extend: {
       container: {
         center: true,
@@ -26,6 +11,21 @@ export default {
           DEFAULT: '1.5rem',
           md: '2rem'
         }
+      },
+      colors: {
+        blue: {
+          100: '#080815',
+          200: '#0E0F25',
+          300: '#141534',
+          400: '#1F2151',
+          500: '#2F3279',
+          600: '#2F34AB',
+          700: '#4A5DCD',
+          800: '#7D8DEC',
+          900: '#B2B8DE'
+        },
+        white: '#F1F2F6',
+        black: '#04040B'
       },
       fontFamily: {
         sans: 'Inter, ui-sans-serif, sans-serif',
